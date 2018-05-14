@@ -1,0 +1,13 @@
+public class AccountHandler {
+    public static Account insertNewAccount (String Alfa){
+    Account myAccount = NEW Account();
+        IF ( Alfa != null){
+            myAccount.Name = Alfa;
+            insert myAccount;
+            return  myAccount; 
+        } 
+        ELSE{
+            return null;
+        }       
+    }
+}
